@@ -22,7 +22,11 @@ cd pages/ && wfg -p -n log
 cd components && wfg -c -n button
 ```
 
+或者，如果你不想移动，那就在项目根目录下操作也可以，比如这样：
+```
+wfg -p -n pages/log
+```
+
 ## 3. 后续计划
 
 * 发布npm包
-* 支持自动更新app.json
